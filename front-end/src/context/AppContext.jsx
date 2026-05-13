@@ -9,7 +9,7 @@ const AppContextProvider = ({ children }) => {
 
     const currencySymbol = '$'
 
-    const backendurl = import.meta.env.VITE_BACKEND_URL
+    const backendurl = "https://green-life-be.onrender.com"
 
     const [doctors, setdoctors] = useState([])
 
