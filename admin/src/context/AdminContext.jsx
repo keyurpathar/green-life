@@ -10,7 +10,7 @@ const AdminContextProvider = (props) => {
 
     const [doctors, setdoctors] = useState([])
 
-    const backendurl = import.meta.env.VITE_BACKEND_URL;
+    const backendurl = "https://green-life-be.onrender.com"
 
     const getAllDoctor = async () => {
 
